@@ -1,0 +1,6 @@
+<li <?php echo ($side_active_menu == 'profile' ? 'class="active"' : '') ?>><a href="<?php echo Uri::create('profile.html'); ?>"><i class="fa fa-user"></i><?php echo \Lang::get('profile_main_menu_title'); ?></a></li>
+<li <?php echo ($side_active_menu == 'settings' ? 'class="active"' : '') ?>><a href="<?php echo Uri::create('profile/settings.html'); ?>"><i class="fa fa-cog"></i><?php echo \Lang::get('profile_menu_setting_title'); ?></a></li>
+<li <?php echo ($side_active_menu == 'photos' ? 'class="active"' : '') ?>><a href="<?php echo Uri::create('profile/photos.html'); ?>"><i class="fa fa-camera"></i><?php echo \Lang::get('profile_menu_photo_title'); ?></a></li>
+<li <?php echo ($side_active_menu == 'booking' ? 'class="active"' : '') ?>><a href="<?php echo Uri::create('profile/booking.html'); ?>"><i class="fa fa-clock-o"></i><?php echo \Lang::get('profile_menu_booking_history_title'); ?></a></li>
+<li <?php echo ($side_active_menu == 'cards' ? 'class="active"' : '') ?>><a href="<?php echo Uri::create('profile/cards.html'); ?>"><i class="fa fa-credit-card"></i><?php echo \Lang::get('profile_menu_card_title'); ?></a></li>
+<li <?php echo ($side_active_menu == 'wishlist' ? 'class="active"' : '') ?>><a href="<?php echo Uri::create('profile/wishlist.html'); ?>"><i class="fa fa-heart-o"></i><?php echo \Lang::get('profile_menu_wishlist_title'); ?></a></li>

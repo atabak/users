@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'page_title'            => 'Profile-Account Info',
+    'account_title'         => 'Acount Info',
+    'first'                 => 'First Name',
+    'last'                  => 'Last Name',
+    'username'              => 'Username',
+    'email'                 => 'Email Address',
+    'phones'                => 'Phone',
+    'save_change_btn'       => 'Save Change',
+    'change_password_title' => 'Change Password',
+    'current_password'      => 'Current Password',
+    'new_password'          => 'New  Password',
+    'new_password_again'    => 'New Password Again',
+    'change_password_btn'   => 'Change Password',
+    'account_info_label'    => 'User Information',
+    'no_fields'             => 'Your Group Not Has Any Field',
+    ''                      => '',
+    ''                      => '',
+    ''                      => '',
+    ''                      => '',
+    ''                      => '',
+    ''                      => '',
+];
